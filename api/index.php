@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+include(__DIR__ . '/header.php');
 
 <div class="container" style="min-height: 80vh; display: flex; align-items: center; justify-content: center; padding: 40px 20px;">
     <div class="card" style="display: flex; flex-direction: row; max-width: 900px; padding: 0; overflow: hidden; width: 100%;">
@@ -96,3 +96,4 @@
 </style>
 
 <?php include 'footer.php'; ?>
+
